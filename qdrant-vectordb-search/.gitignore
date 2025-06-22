@@ -36,3 +36,9 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+# Configuration files with sensitive data
+application.properties
+
+# Keep the example file
+!application.properties.example

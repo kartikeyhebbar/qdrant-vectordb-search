@@ -1,0 +1,12 @@
+# Qdrant Configuration
+qdrant.host=your-qdrant-host.aws.cloud.qdrant.io
+qdrant.port=6334
+qdrant.api.key=your-api-key-here
+qdrant.collection.name=ebook_collection
+
+# Embedding Configuration
+embedding.vector.dimension=384
+
+# Text Processing Configuration
+text.chunk.size=500
+text.chunk.overlap=100
